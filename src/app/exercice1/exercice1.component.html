@@ -1,0 +1,10 @@
+exercice1.component.html
+
+<input [type]="inputType">
+<div 
+    class="carre" 
+    [style.background]="color"
+    (click)="changeColor('green')"
+    (mouseleave)="changeColor('red')"
+></div>
+<p>La couleur actuelle du carré est {{color}}</p>
